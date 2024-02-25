@@ -9,6 +9,11 @@ Steps to push the changes:
 7. Generate Personal acces token on github
 8. git remote set-url origin https://your_username:your_token@github.com/your_username/your_repository.git
 9. git push -u origin master
+To push the second directory in the same folder:
+1. Repeat steps 5-8
+2. git fetch origin
+3. git merge origin/master  # or the branch you're working on
+4. git push origin master  # or the branch you're working on
 
 
 
